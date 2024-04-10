@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+html {
+  @apply text-black;
+  transition: all 0.3s ease-in;
+}
+
+.progress-bar {
+  @apply absolute top-0 left-0 h-1;
+}
+
+.loader {
+  @apply w-16 aspect-square rounded-full border-8 border-b-0 border-t-0 border-secondary animate-spin;
+}
