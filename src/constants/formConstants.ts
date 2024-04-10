@@ -54,25 +54,21 @@ export const mathLevel = [
     id: "m01",
     value: "Arithmetic",
     alternate: "Introductory",
-    img: "/src/assets/arithmetic.png",
   },
   {
     id: "m02",
     value: "Basic Algebra",
     alternate: "Foundational",
-    img: "/src/assets/algebra.png",
   },
   {
     id: "m03",
     value: "Intermediate Algebra",
     alternate: "Intermediate",
-    img: "/src/assets/algebra-2.png",
   },
   {
     id: "m04",
     value: "Calculus",
     alternate: "Advanced",
-    img: "/src/assets/calculus.png",
   },
 ];
 
@@ -82,13 +78,11 @@ export const paths = [
     value: "Foundational Math",
     alternate:
       "Build your foundational skills in algebra, geometry, and probability.",
-    img: "/src/assets/foundational.png",
   },
   {
     id: "p02",
     value: "Mathematical Thinking",
     alternate:
       "Build your foundational skills in algebra, geometry, and probability.",
-    img: "/src/assets/foundational.png",
   },
 ];
